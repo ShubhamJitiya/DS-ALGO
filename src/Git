@@ -11,7 +11,7 @@ git remote add origin <link-from-github>
 git push --set-upstream origin Linked-List //create new branch named "Linked-List"
 
 
-Switch to branch and push in new branch
+Switch to branch and push in new branch or direct main also
 ------|
 git branch --show-current
 git checkout <branch-name-to-switch>
