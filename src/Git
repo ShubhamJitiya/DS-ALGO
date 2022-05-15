@@ -10,6 +10,16 @@ CREATE NEW REPO FROM GITHUB
 git remote add origin <link-from-github>
 git push --set-upstream origin Linked-List //create new branch named "Linked-List"
 
+
+Switch to branch and push in new branch
+------|
+git branch --show-current
+git checkout <branch-name-to-switch>
+git add .
+git commit -m <"message">
+git push
+
+
 commit
 ------|
 git commit -m <message>
