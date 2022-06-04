@@ -19,11 +19,16 @@ git add .
 git commit -m <"message">
 git push
 
-Switch to main and merge from branch
+Switch to main and merge from branch - move to main branch
 ------|
-move to main branch
+
 git merge <branch>
 git push
+
+
+Switch to master
+------|
+git checkout master
 
 
 commit
