@@ -49,4 +49,4 @@ git merge <branch-name>
 
 Push the merged code
 -----------------|
-git push
+git push (before that --set-upstream)
