@@ -55,3 +55,9 @@ git merge <branch-name>
 Push the merged code
 -----------------|
 git push (before that --set-upstream)
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
