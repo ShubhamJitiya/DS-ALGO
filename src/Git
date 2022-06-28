@@ -65,3 +65,19 @@ git push origin --delete remoteBranchName
 Fetch/update latest code
 -------------------|
 git pull
+
+----------------------------------------------------------------------
+//For flutter app which have two repo in same project on github and update code to specific repo
+
+Change web repo code
+
+1. From root of project
+	flutter build web
+2. goto cd build
+	cd web
+project/build/web
+
+3. git status - see the modified files4
+4. git add .
+5. git commit -m "msg"
+6. git push
