@@ -1,0 +1,83 @@
+GIT - CheatSheet
+----------------
+
+Initially
+---------|
+git init
+git add .
+git commit -m <"message">
+CREATE NEW REPO FROM GITHUB
+git remote add origin <link-from-github>
+git push --set-upstream origin Linked-List //create new branch named "Linked-List"
+
+
+Switch to branch and push in new branch or direct main also
+------|
+git branch --show-current
+git checkout <branch-name-to-switch>
+git add .
+git commit -m <"message">
+git push
+
+Switch to main and merge from branch - move to main branch
+------|
+
+git merge <branch>
+git push
+
+
+Switch to master
+------|
+git checkout master
+
+
+commit
+------|
+git commit -m <message>
+
+
+Create new branch
+-----------------|
+$ git checkout -b <branch-name>
+
+Change current branch
+-----------------|
+ git checkout <branch-name>
+
+Show current branch
+-----------------|
+git branch --show-current
+
+Merge the branch
+-----------------|
+git merge <branch-name>
+
+Push the merged code
+-----------------|
+git push (before that --set-upstream)
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+Fetch/update latest code
+-------------------|
+git pull
+
+----------------------------------------------------------------------
+//For flutter app which have two repo in same project on github and update code to specific repo
+
+Change web repo code
+
+1. From root of project
+	flutter build web
+2. goto cd build
+	cd web
+project/build/web
+
+3. git status - see the modified files4
+4. git add .
+5. git commit -m "msg"
+6. git push
