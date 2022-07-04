@@ -1,15 +1,15 @@
 package DS.linked_list;
 
-public class MyLinkedList {
+public class C01_MyLinkedList {
     Node head;
     private int size;
 
-    MyLinkedList(){
+    C01_MyLinkedList(){
         this.size = 0;
     }
 
     public static void main(String[] args) {
-        MyLinkedList newList = new MyLinkedList();
+        C01_MyLinkedList newList = new C01_MyLinkedList();
         newList.addFirst("a");
         newList.addFirst("is");
         newList.traverse();
