@@ -19,7 +19,7 @@ public class C03_second_smallest_largest {
         System.out.println("\nSecond smallest: " + arr[1] + "\nSecond largest: " + arr[arr.length - 2]);
     }
 
-    ///work in case of duplicate - without sorting
+    ///work in case of duplicate - without sorting - traverse twice
     private static void approach2(int[] arr) {
         int firstSmallest = Integer.MAX_VALUE, secondSmallest = Integer.MAX_VALUE, firstLargest = Integer.MIN_VALUE, secondLargest = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
