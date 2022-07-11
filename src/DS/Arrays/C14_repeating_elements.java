@@ -13,10 +13,11 @@ public class C14_repeating_elements {
 
     private static void usingHashMap(int[] arr) {
         Map<Integer, Boolean> map = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            if(!map.containsKey(arr[i])){
-
-                map.put(arr[i], true);
+        for (int j : arr) {
+            if (!map.containsKey(j)) {
+                map.put(j, false); //First time occurring
+            } else {
+                map.put(j, true); //It is repeated
             }
         }
         for(Map.Entry<Integer, Boolean> entry: map.entrySet()){
