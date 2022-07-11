@@ -13,22 +13,20 @@ public class C15_non_repeating_elements {
     }
     private static void usingHashMap(int[] arr) {
         List<Integer> list = new ArrayList<>();
-        Map<Integer, Boolean> map = new HashMap<>();
 
-        for (int i = 0; i < arr.length; i++) {
-            if(!map.containsKey(arr[i])){ //vising first time
-                map.put(arr[i], false);
-            }else{
-                map.put(arr[i], true); //visiting second time
+        Map<Integer, Boolean> map = new HashMap<>();
+        for (int j : arr) {
+            if (!map.containsKey(j)) {
+                map.put(j, false); //First time occurring
+            } else {
+                map.put(j, true); //It is repeated
             }
         }
-
-        for(Map.Entry<Integer, Boolean> entry : map.entrySet()){
-            if(!entry.getValue()) { //If value is false means that appeared only once
+        for (Map.Entry<Integer, Boolean> entry : map.entrySet()) {
+            if (!entry.getValue()) { //If value is false means appeared only once
                 list.add(entry.getKey());
             }
         }
-        System.out.println(list);
         System.out.println(list);
      /*   for(Map.Entry<Integer, Boolean> entry: map.entrySet()){
             System.out.println(entry.getKey() + " : " + entry.getValue());
