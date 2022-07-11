@@ -3,7 +3,7 @@ package DS.Sting;
 import java.util.HashMap;
 import java.util.Map;
 
-public class C13_char_frequency {
+public class C11_char_frequency {
     public static void main(String[] args) {
         String str = "takeuforward";
 
