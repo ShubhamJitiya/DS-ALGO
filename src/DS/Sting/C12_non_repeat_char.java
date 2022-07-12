@@ -11,7 +11,7 @@ public class C12_non_repeat_char {
 
         usingHashMap(str);
     }
-    //Similar to non-repeat in array
+    //Similar to non-repeat in array - remove duplicates
     private static void usingHashMap(String str) {
         List<Character> list = new ArrayList<>();
 
