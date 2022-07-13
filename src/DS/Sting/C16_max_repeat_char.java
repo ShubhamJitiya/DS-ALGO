@@ -25,6 +25,7 @@ public class C16_max_repeat_char {
 
     public static void main(String[] args) {
         String str = "apple";
+        System.out.println("Original String: " + str);
         System.out.println("Maximum occurring character is " + maxOccurringChar(str));
     }
 }
