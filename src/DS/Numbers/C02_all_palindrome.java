@@ -2,7 +2,7 @@ package DS.Numbers;
 
 public class C02_all_palindrome {
     public static void main(String[] args) {
-       int start = 10, end = 50;
+       int start = 0, end = 33;
        for(int i = start; i <=end; i++)
            System.out.println(isPalindrome(i));
     }
