@@ -69,6 +69,11 @@ Fetch/update latest code
 -------------------|
 git pull
 
+Show all branches
+--------------|
+git branch
+
+
 ----------------------------------------------------------------------
 //For flutter app which have two repo in same project on github and update code to specific repo
 
