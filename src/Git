@@ -73,6 +73,9 @@ Show all branches
 --------------|
 git branch
 
+Rename branch
+---------------|
+https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch
 
 ----------------------------------------------------------------------
 //For flutter app which have two repo in same project on github and update code to specific repo
